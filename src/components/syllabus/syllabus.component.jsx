@@ -50,21 +50,21 @@ class Syllabus extends React.Component{
                     <Col>
                         {
                             this.state.data.filter(row => row[3] <= 30).filter(row => row[4] === this.state.course.split("/")[2]).map(row =>
-                                <p key = {row[1]}>{row[5]}</p>
+                                <li key = {row[1]}>{row[5]}</li>
                             )
                         }
                     </Col>
                     <Col>
                         {
                             this.state.data.filter(row => row[3] >= 31 && row[3] <= 60).filter(row => row[4] === this.state.course.split("/")[2]).map(row =>
-                                <p key = {row[1]}>{row[5]}</p>
+                                <li key = {row[1]}>{row[5]}</li>
                             )
                         }
                     </Col>
                     <Col>
                         {
                             this.state.data.filter(row => row[3] >= 61).filter(row => row[4] === this.state.course.split("/")[2]).map(row =>
-                                <p key = {row[1]}>{row[5]}</p>
+                                <li key = {row[1]}>{row[5]}</li>
                             )
                         }
                     </Col>
@@ -80,21 +80,21 @@ class Syllabus extends React.Component{
                     <Col>
                         {
                             this.state.data.filter(row => row[3] <= 20).filter(row => row[4] === this.state.course.split("/")[2]).map(row =>
-                                <p key = {row[1]}>{row[5]}</p>
+                                <li key = {row[1]}>{row[5]}</li>
                             )
                         }
                     </Col>
                     <Col>
                         {
                             this.state.data.filter(row => row[3] >= 21 && row[3] <= 40).filter(row => row[4] === this.state.course.split("/")[2]).map(row =>
-                                <p key = {row[1]}>{row[5]}</p>
+                                <li key = {row[1]}>{row[5]}</li>
                             )
                         }
                     </Col>
                     <Col>
                         {
                             this.state.data.filter(row => row[3] >= 41).filter(row => row[4] === this.state.course.split("/")[2]).map(row =>
-                                <p key = {row[1]}>{row[5]}</p>
+                                <li key = {row[1]}>{row[5]}</li>
                             )
                         }
                     </Col>

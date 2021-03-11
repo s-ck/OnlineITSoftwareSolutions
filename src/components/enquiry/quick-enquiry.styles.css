@@ -8,6 +8,13 @@ h1{
 }
 
 .alert{
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.alert-feild{
     color: red;
     font-size: 15px;
 }

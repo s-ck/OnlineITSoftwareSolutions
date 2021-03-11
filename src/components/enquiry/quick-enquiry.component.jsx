@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button, Modal, Form } from 'react-bootstrap';
 import appendData_Inquiry from '../util/spreadsheet';
-import ThankYou from '../thank-you/thank-you.component';
 import '../enquiry/quick-enquiry.styles.css';
+import ThankYou from '../thank-you/thank-you.component';
 
 class QuickEnquiry extends React.Component{
     constructor(){
@@ -40,20 +40,20 @@ class QuickEnquiry extends React.Component{
                 Mobile_Number:this.state.mobile[0],
                 Course:this.state.course[0],
                 date:new Date().toLocaleDateString()
-
             });
-        document.getElementById('show').style.display = "block";
-        document.getElementById('formdiv').style.display = "none";
+            document.getElementById('thank-you').style.display = "block";
     }
 
     componentDidMount(){
-        document.getElementById('show').style.display = "none";
+        document.getElementById('thank-you').style.display = "none";
     }
 
     render(){
         return(
         <>
-        <div id="formdiv">
+        <div id="thank-you">
+            <ThankYou name="Enquiry"/>
+        </div>
             <Modal.Dialog>
                 <Modal.Header>
                     <Modal.Title>Fill the details below</Modal.Title>
@@ -84,8 +84,6 @@ class QuickEnquiry extends React.Component{
                    </Form> 
                 </Modal.Body>
             </Modal.Dialog>
-        </div>   
-        <div id = "show"><ThankYou name = "Enquiry"/></div>
         </>
         )
     }

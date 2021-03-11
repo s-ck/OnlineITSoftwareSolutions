@@ -27,19 +27,20 @@ class TestimonieForm extends React.Component{
             Date:new Date().toLocaleDateString()
         })
         document.getElementById('form').reset();
-        document.getElementById('show').style.display = "block";
-        document.getElementById('formdiv').style.display = "none";
+        document.getElementById('thank-you').style.display = "block";
     }
 
     componentDidMount(){
-        document.getElementById('show').style.display = "none";
+        document.getElementById('thank-you').style.display = "none";   
     }
 
     render(){
         return(
             <>
+        <div id="thank-you">
+            <ThankYou name="Testimonies"/>
+        </div>    
       <Container>
-      <div id="formdiv">
         <h1>Add Testimonies</h1>
         <Form id = "form" onSubmit = {this.handleSubmit}>
             <Form.Group>
@@ -58,8 +59,6 @@ class TestimonieForm extends React.Component{
                 <Button className = "btn" type="submit">Submit</Button>
             </Form.Group>
         </Form>
-    </div>
-    <div id = "show"><ThankYou name = "Testimonies"/></div>
      </Container>  
     </>
     )

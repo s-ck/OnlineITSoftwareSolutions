@@ -4,8 +4,8 @@ import '../thank-you/thank-you.styles.css';
 
 const ThankYou = ({name}) => (
     <Container>
-        <div className = "center">       
-            Thanks for filling the {name}
+        <div className = "alert alert-success">
+            Thank you for the {name}
         </div>
     </Container>
 )

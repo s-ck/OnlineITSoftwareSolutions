@@ -1,0 +1,13 @@
+.frame{
+    padding-left: 30%;
+}
+
+h1{
+    text-align: center;
+    padding:5px;
+}
+
+.alert{
+    color: red;
+    font-size: 15px;
+}

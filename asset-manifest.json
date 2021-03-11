@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/OnlineITSoftwareSolutions/static/css/main.57f0c585.chunk.css",
+    "main.js": "/OnlineITSoftwareSolutions/static/js/main.28660058.chunk.js",
+    "main.js.map": "/OnlineITSoftwareSolutions/static/js/main.28660058.chunk.js.map",
+    "runtime-main.js": "/OnlineITSoftwareSolutions/static/js/runtime-main.32af91bb.js",
+    "runtime-main.js.map": "/OnlineITSoftwareSolutions/static/js/runtime-main.32af91bb.js.map",
+    "static/js/2.9ddef2dd.chunk.js": "/OnlineITSoftwareSolutions/static/js/2.9ddef2dd.chunk.js",
+    "static/js/2.9ddef2dd.chunk.js.map": "/OnlineITSoftwareSolutions/static/js/2.9ddef2dd.chunk.js.map",
+    "index.html": "/OnlineITSoftwareSolutions/index.html",
+    "static/css/main.57f0c585.chunk.css.map": "/OnlineITSoftwareSolutions/static/css/main.57f0c585.chunk.css.map",
+    "static/js/2.9ddef2dd.chunk.js.LICENSE.txt": "/OnlineITSoftwareSolutions/static/js/2.9ddef2dd.chunk.js.LICENSE.txt",
+    "static/media/Appium.dccb8e92.png": "/OnlineITSoftwareSolutions/static/media/Appium.dccb8e92.png",
+    "static/media/ManualTesting.e0dbcbb5.png": "/OnlineITSoftwareSolutions/static/media/ManualTesting.e0dbcbb5.png",
+    "static/media/cucumber.20b58e74.png": "/OnlineITSoftwareSolutions/static/media/cucumber.20b58e74.png",
+    "static/media/java_1.2f1541a6.png": "/OnlineITSoftwareSolutions/static/media/java_1.2f1541a6.png",
+    "static/media/python.c32d39af.jpg": "/OnlineITSoftwareSolutions/static/media/python.c32d39af.jpg",
+    "static/media/selenium.423c891f.png": "/OnlineITSoftwareSolutions/static/media/selenium.423c891f.png",
+    "static/media/web_services.3ee0dafc.png": "/OnlineITSoftwareSolutions/static/media/web_services.3ee0dafc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32af91bb.js",
+    "static/js/2.9ddef2dd.chunk.js",
+    "static/css/main.57f0c585.chunk.css",
+    "static/js/main.28660058.chunk.js"
+  ]
+}

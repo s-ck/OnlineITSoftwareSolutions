@@ -6,6 +6,7 @@ const PRIVATE_KEY = process.env.React_App_PRIVATE_KEY;
 
 const doc = new GoogleSpreadsheet(SPREADSHEET_ID);
 const appendData_Reg = async (row) => {
+    console.log(row)
     try{
         await doc.useServiceAccountAuth({
             client_email:client_email,

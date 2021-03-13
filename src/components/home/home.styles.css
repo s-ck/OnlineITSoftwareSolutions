@@ -1,0 +1,19 @@
+h3{
+    cursor: pointer;
+}
+.reg-form{
+    display: none;
+}
+
+.inline-form-show{
+    display: block;
+}
+Button{
+    margin-top: 23px;
+}
+#text-title{
+    font-size: 10px;
+}
+#thank-you{
+    width: 300px;
+}

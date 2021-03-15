@@ -11,8 +11,6 @@ import joinus from './joinus.svg';
 import workhard from './workhard.svg';
 import success from './success.svg';
 
-
-
 class Home extends React.Component{
     constructor(){
         super()
@@ -100,7 +98,7 @@ class Home extends React.Component{
                 <Form.Group>
                         <Form.Label>Name</Form.Label>
                         <Form.Control type = "text" name = "name" placeholder = "First Name" onChange = {this.handleChange}/>
-                        <span id="name" className = "alert-feild"></span>
+                        <span id="name" className = "alert-feild validation"></span>
                     </Form.Group>
                 </Col>
             </Row>
@@ -109,7 +107,7 @@ class Home extends React.Component{
                     <Form.Group>
                         <Form.Label>Email</Form.Label>
                         <Form.Control type = "email" name = "email" placeholder = "Email ID" onChange = {this.handleChange}/>
-                        <span id="email" className = "alert-feild"></span>
+                        <span id="email" className = "alert-feild validation"></span>
                     </Form.Group>
                 </Col>
             </Row>
@@ -118,7 +116,7 @@ class Home extends React.Component{
                     <Form.Group>
                         <Form.Label>Mobile Number</Form.Label>
                         <Form.Control type = "number" name = "mobile" placeholder = "Mobile Number" onChange = {this.handleChange}/>
-                        <span id="mobile" className = "alert-feild"></span>
+                        <span id="mobile" className = "alert-feild validation"></span>
                     </Form.Group>
                 </Col>
             </Row>
@@ -127,7 +125,7 @@ class Home extends React.Component{
                     <Form.Group>
                         <Form.Label>Course</Form.Label>
                         <Form.Control type = "text"  name = "course" placeholder = "Course" onChange = {this.handleChange}/>
-                        <span id="course" className = "alert-feild"></span>
+                        <span id="course" className = "alert-feild validation"></span>
                     </Form.Group>
                 </Col>
             </Row>
@@ -141,7 +139,7 @@ class Home extends React.Component{
                                     <option key={row[1]}>{row[3]+" "+row[5]+" "+row[6]}</option>
                                 )
                             }
-                            <span id="batch" className = "alert-feild"></span>
+                            <span id="batch" className = "alert-feild validation"></span>
                         </Form.Control>
                     </Form.Group>
                     <Button type="submit">Submit</Button>

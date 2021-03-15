@@ -34,7 +34,7 @@ class FooterComponent extends React.Component{
                 <AIIcons.AiOutlineMail/>onlineItsoftwaresolutions@gmail.com
             </p>
             <p style = {{fontSize:'15px'}}>
-                <FAIcons.FaPhoneAlt/> 9742917727/8088342554
+                <FAIcons.FaPhoneAlt/> +91-6366975664/9742917727
             </p>
             </div>
             </div>

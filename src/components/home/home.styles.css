@@ -1,19 +1,35 @@
-h3{
-    cursor: pointer;
-}
-.reg-form{
-    display: none;
-}
-
-.inline-form-show{
-    display: block;
-}
-Button{
-    margin-top: 23px;
+#form-reg{
+    width: 30%;
 }
 #text-title{
     font-size: 10px;
 }
 #thank-you{
     width: 300px;
+}
+#title{
+    color: white;
+    margin-top: 3px;
+}
+label{
+    color:white;
+    font-size: 12px;
+}
+#body{
+    background-color: #007a88;
+    justify-content: center;
+    padding: 10px;
+}
+h1{
+    float: center;
+    margin-top: 30px;
+}
+img{
+    width: 100px;
+}
+.row-center{
+    margin-left:15%;
+}
+#name{
+    color:darkslateblue;
 }

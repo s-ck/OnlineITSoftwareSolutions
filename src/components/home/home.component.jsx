@@ -1,11 +1,17 @@
 import React from 'react';
 import { Col, Form, Row, Container, Button } from 'react-bootstrap';
-import FooterComponent from '../footer/footer.component';
 import ThankYou from '../thank-you/thank-you.component';
+import FooterComponent from '../footer/footer.component';
 import { GoogleSpreadsheet } from 'google-spreadsheet';
 import appendData_Reg from '../register/add-record';
 import '../enquiry/quick-enquiry.styles.css';
 import '../home/home.styles.css';
+import bgimg from './OnlineITSoftwareSolutions.png';
+import joinus from './joinus.svg';
+import workhard from './workhard.svg';
+import success from './success.svg';
+
+
 
 class Home extends React.Component{
     constructor(){
@@ -70,10 +76,6 @@ class Home extends React.Component{
         });
         document.getElementById('thank-you').style.display = "block";
     }
-
-    showForm(){
-        document.getElementById('inline-form').className = "inline-form-show";
-    }
     
     componentDidMount(){
         this.readData();
@@ -83,16 +85,16 @@ class Home extends React.Component{
     render(){
     return(
     <>
+    <div id="bg-img" style = {{backgroundImage:`URL(${bgimg})`}}>
     <Container>
         <div id = "title">
-            <h3 onMouseOver = {this.showForm}>Register for Course</h3>
-            <span id = "text-title">Hover on the register text to fill the form</span>
+            <h3>Register for Course</h3>
         </div>
         <div id="inline-form" className = "reg-form">
         <div id="thank-you">
             <ThankYou name="Register"/>
         </div>
-        <Form onSubmit = {this.handleSubmit}>
+        <Form id = "form-reg" onSubmit = {this.handleSubmit}>
             <Row>
                 <Col>
                 <Form.Group>
@@ -101,6 +103,8 @@ class Home extends React.Component{
                         <span id="name" className = "alert-feild"></span>
                     </Form.Group>
                 </Col>
+            </Row>
+            <Row>
                 <Col>
                     <Form.Group>
                         <Form.Label>Email</Form.Label>
@@ -108,6 +112,8 @@ class Home extends React.Component{
                         <span id="email" className = "alert-feild"></span>
                     </Form.Group>
                 </Col>
+            </Row>
+            <Row>
                 <Col>
                     <Form.Group>
                         <Form.Label>Mobile Number</Form.Label>
@@ -115,6 +121,8 @@ class Home extends React.Component{
                         <span id="mobile" className = "alert-feild"></span>
                     </Form.Group>
                 </Col>
+            </Row>
+            <Row>
                 <Col>
                     <Form.Group>
                         <Form.Label>Course</Form.Label>
@@ -122,6 +130,8 @@ class Home extends React.Component{
                         <span id="course" className = "alert-feild"></span>
                     </Form.Group>
                 </Col>
+            </Row>
+            <Row>
                 <Col>
                     <Form.Group>
                         <Form.Label>Batch</Form.Label>
@@ -134,14 +144,36 @@ class Home extends React.Component{
                             <span id="batch" className = "alert-feild"></span>
                         </Form.Control>
                     </Form.Group>
-                </Col>
-                <Col>
                     <Button type="submit">Submit</Button>
                 </Col>
             </Row>
         </Form>
         </div>
+        <Row>
+            <Col>
+                <h1 style = {{color:"white"}}>Welcome to Online IT Software solutions</h1>
+            </Col>
+        </Row>
     </Container>
+    </div>
+    <div id = "body">
+    <Container>
+    <Row className = "row-center">
+            <Col className = "col-center">
+                <img src = {joinus}/>
+                <p>Join Online IT software solutions</p>
+            </Col>
+            <Col className = "col-center">
+                <img src = {workhard}/>
+                <p>Work Hard</p>
+            </Col>
+            <Col className = "col-center">
+                <img src = {success}/>
+                <p>Success</p>
+            </Col>
+    </Row>
+    </Container>
+    </div>
     <FooterComponent/>
     </>
     )

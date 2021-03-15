@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/OnlineITSoftwareSolutions/static/css/main.98c3ec3d.chunk.css",
-    "main.js": "/OnlineITSoftwareSolutions/static/js/main.ba7d8e00.chunk.js",
-    "main.js.map": "/OnlineITSoftwareSolutions/static/js/main.ba7d8e00.chunk.js.map",
+    "main.css": "/OnlineITSoftwareSolutions/static/css/main.504a5e46.chunk.css",
+    "main.js": "/OnlineITSoftwareSolutions/static/js/main.aed91cdf.chunk.js",
+    "main.js.map": "/OnlineITSoftwareSolutions/static/js/main.aed91cdf.chunk.js.map",
     "runtime-main.js": "/OnlineITSoftwareSolutions/static/js/runtime-main.32af91bb.js",
     "runtime-main.js.map": "/OnlineITSoftwareSolutions/static/js/runtime-main.32af91bb.js.map",
     "static/js/2.2f87d65b.chunk.js": "/OnlineITSoftwareSolutions/static/js/2.2f87d65b.chunk.js",
     "static/js/2.2f87d65b.chunk.js.map": "/OnlineITSoftwareSolutions/static/js/2.2f87d65b.chunk.js.map",
     "index.html": "/OnlineITSoftwareSolutions/index.html",
-    "static/css/main.98c3ec3d.chunk.css.map": "/OnlineITSoftwareSolutions/static/css/main.98c3ec3d.chunk.css.map",
+    "static/css/main.504a5e46.chunk.css.map": "/OnlineITSoftwareSolutions/static/css/main.504a5e46.chunk.css.map",
     "static/js/2.2f87d65b.chunk.js.LICENSE.txt": "/OnlineITSoftwareSolutions/static/js/2.2f87d65b.chunk.js.LICENSE.txt",
     "static/media/Appium.dccb8e92.png": "/OnlineITSoftwareSolutions/static/media/Appium.dccb8e92.png",
     "static/media/ManualTesting.e0dbcbb5.png": "/OnlineITSoftwareSolutions/static/media/ManualTesting.e0dbcbb5.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.32af91bb.js",
     "static/js/2.2f87d65b.chunk.js",
-    "static/css/main.98c3ec3d.chunk.css",
-    "static/js/main.ba7d8e00.chunk.js"
+    "static/css/main.504a5e46.chunk.css",
+    "static/js/main.aed91cdf.chunk.js"
   ]
 }
